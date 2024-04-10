@@ -1,0 +1,6 @@
+General Time Complexity Tips:
+
+Constant time O(1):
+    - Most ideal if possible.
+    - Does not matter the size of the data being analyzed it will take around same time to run code.
+
