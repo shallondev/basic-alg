@@ -32,6 +32,10 @@
                 n(n-1)(n-2)...(3)2!
                 n(n-1)(n-2)...(3)(2)1!
                 n(n-1)(n-2)...(3)(2)(1)
+    
+    Time Complexity of n!:
+        Recurrance relation: T(n) = T(n-1) + O(1) => O(n) = Ω(n)
+        In words: The function must call itself n times no matter what so we are on linear time.
 */
 
 // Assumption: n > 0.
