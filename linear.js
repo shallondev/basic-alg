@@ -26,6 +26,7 @@ function linearSearch(arr, target) {
 function linearSearchEach(arr, target) {
     let found = false;
 
+    // Modern JS forEach is more popular but it iterates entire array!
     arr.forEach(element => {
         if (element === target) {
             found = ture;
